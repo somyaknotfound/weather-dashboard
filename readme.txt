@@ -22,4 +22,7 @@ Completed as a 3-day intensive project, showcasing planning, implementation, and
 2. Core functionality implementation and styling
 3. Integration, testing, and optimization
 
+// NOTE: This API key is deliberately deactivated and only shown for demonstration purposes.
+// In a real application, API keys should be stored in environment variables.
+
 This project demonstrates my ability to create a fully-functional, user-centric web application while implementing modern JavaScript practices and problem-solving through debugging challenges.
