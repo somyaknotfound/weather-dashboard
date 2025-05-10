@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="weather.css">
+</head>
+<body>
+    <div class="navbar">
+        <h1>Weather Dashboard</h1>
+        <div class="theme-toggle">
+            <button id="themeToggle">☀️/🌙</button>
+        </div>
+    </div>
+    
+    <div class="content-wrapper">
+        <div class="sidebar favourites-sidebar">
+            <h3>Favourite Cities</h3>
+            <div id="favourites-container">
+                <!-- Favourite cities will be populated here -->
+            </div>
+        </div>
+        
+        <div class="main-content">
+            <div class="search-bar">
+                <input type="text" id="cityinput" placeholder="Enter city name">
+                <button id="searchBtn">Search</button>
+            </div>
+            
+            <div class="weather-card">
+                <!-- Weather data will be populated here -->
+                <div class="placeholder">Enter a city to see weather information</div>
+            </div>
+        </div>
+        
+        <div class="sidebar recent-sidebar">
+            <h3>Recent Searches</h3>
+            <div id="recent-container">
+                <!-- Recent searches will be populated here -->
+            </div>
+        </div>
+    </div>
+
+    <script src="weather.js"></script>
+    <script src="favourite.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
