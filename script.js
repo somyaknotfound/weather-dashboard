@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const API_KEY = '62f883fcf140f4ab21114d2c699684f9';
+    const API_KEY = '62f883fcf140f4ab21114d2c699684f9'; // Inactive demonstration key
 
     // Initializing classes
     const weatherAPI = new WeatherAPI(API_KEY);
